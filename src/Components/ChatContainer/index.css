@@ -1,0 +1,86 @@
+.bg-container{
+    display:flex;
+    flex-direction: column;
+    background-color: #c4cccc;
+    height:100vh;
+    overflow-y:auto;
+   
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+.message-input{
+  
+   width:calc(100% - 30px);
+   margin-right:10px;
+   border:none;
+    outline: none;
+    background-color: transparent;
+}
+.msg-input-cotainer{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    right:20px;
+   width: calc(100% - 80px);
+   height:20px;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:solid grey 1px;
+    
+}
+.Chat-items{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    overflow-y:auto;
+    height:calc(100% - 240px);
+}
+.Chat-items::before {
+    content: "";
+    flex-grow: 1;
+  }
+  .emoji-picker-container{
+    align-self: flex-end;
+    justify-content: center;
+    margin-bottom: 22px;
+    margin-right: 10px;
+  }
+
+  .emoji-icon{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  .mentions-list{
+    background-color: white;
+    list-style-type: none;
+    padding:20px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    overflow-y: auto;
+    margin-bottom:65px;
+}
+
+.mention-item {
+  cursor: pointer;
+  margin-bottom: 0px;
+}
+
+.ruler {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.suggestion {
+  margin-bottom: 5px;
+}
