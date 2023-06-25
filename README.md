@@ -1,3 +1,9 @@
+#React Chat App
+implemented two optional features
+  1)emoji feature for chat message
+  2)@mentions feature
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
