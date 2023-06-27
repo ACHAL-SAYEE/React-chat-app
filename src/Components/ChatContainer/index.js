@@ -77,7 +77,7 @@ class ChatContainer extends Component {
             this.checkMentions()
         }
 
-        else if (event.key === "Enter") {
+        else if (event.key === "Enter" && this.state.messageInput!=="") {
             const { messageInput, chatList } = this.state
             const randomNumber = Math.floor(Math.random() * 5);
             const userName = user_list[randomNumber]
